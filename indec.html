@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-image: url("https://raw.github.com/Gokulraj1112/rx100/main/dark.jpg");
+            background-repeat: no-repeat;
+            border:1px solid black;
+            
+            height: 1000px;
+            width: device-width;
+            position: static;
+        }
+        .b{
+            height: 1px;
+            width: 1px;
+            border: 2px solid black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b2{
+            background-color:green;
+            border-radius: 95px;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            left: 200px;
+            top:300px
+            
+        }
+        .b3{
+             background-color: white;
+            border-radius: 100px;
+            position: relative;
+            height: 40px;
+            width: 40px;
+            left: 230px;
+            top:160px
+           
+           
+        }
+        .b4{
+             background-color: white;
+            border-radius: 100px;
+            position: relative;
+            height: 40px;
+            width: 40px;
+            left: 340px;
+            top: 120px;
+            animation-name:eye;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+        .b5{
+             background-color: rgb(0, 0, 0);
+            border-radius: 100px;
+            position: relative;
+            height: 10px;
+            width: 10px;
+            left: 240px;
+            top : 100px;
+        }
+        .b6{
+             background-color: rgb(17, 16, 16);
+            border-radius: 100px;
+            position: relative;
+            height: 10px;
+            width: 10px;
+            left: 350px;
+            top : 90px;
+        }
+        .b7{
+             background-color: rgb(2, 88, 2);
+            border-radius: 100px;
+            position: relative;
+            height: 25px;
+            width: 30px;
+            left: 280px;
+            top: 120px;
+        }
+        .b8{
+             background-color:rgb(15, 17, 15);
+            border-radius: 100px;
+            position: relative;
+            height: 10px;
+            width: 5px;
+            left:285px;
+            top: 97px;
+        }
+        .b9{
+             background-color: rgb(14, 104, 14);
+            border-radius: 100px;
+            position: relative;
+            height: 10px;
+            width: 5px;
+            left:299px;
+            top: 85px;
+        }
+        .b10{
+             background-color: #5bc018;
+            border-radius: 100px;
+            position: relative;
+            height: 40px;
+            width: 40px;
+            left: 355px;
+        bottom:70px;
+        }
+        .b11{
+             background-color: #57c010;
+            border-radius: 100px;
+            position: relative;
+            height: 40px;
+            width: 40px;
+            left: 200px;
+        bottom:110px;
+        }
+        .b12{
+             background-color: rgb(13, 94, 13);
+            border-radius: 60px;
+            position: relative;
+            height: 20px;
+            width: 25px;
+            left: 205px;
+            bottom: 138px;
+        }
+        .b13{
+            background-color: rgb(13, 94, 13);
+            border-radius: 60px;
+            position: relative;
+            height: 20px;
+            width: 25px;
+            left: 365px;
+            bottom: 166px;
+        }
+        .b14{
+            background-color: rgb(13, 94, 13);
+            border-radius: 60px;
+            position: relative;
+            height: 180px;
+            width: 160px;
+            left: 215px;
+            bottom: 10px; animation-name: body;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+        @keyframes body{
+        10%{
+            rotate:  -0deg;
+            background:linear-gradient(rgb(69, 196, 69),rgba(139, 70, 70, 0.692),rgb(147, 43, 173)
+            )
+            /* position: relative;
+        left:10px; */
+        }
+       
+        
+       }
+        .b15{
+            background-color: rgb(13, 94, 13);
+            border-radius: 60px;
+            position: relative;
+            height: 80px;
+            width: 10px;
+            left: 375px;
+            bottom: 210px;
+            animation-name: leftarm;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+            
+        }
+        .b16{
+            background-color: rgb(13, 94, 13);
+            border-radius: 60px;
+            position: relative;
+            height: 80px;
+            width: 10px;
+            left: 205px;
+            bottom: 295px; animation-name: leftarm;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+        @keyframes leftarm{
+        10%{
+            rotate: 80deg;
+            background-color: #469115;
+            /* position: relative;
+        left:10px; */
+        }
+       
+        
+       }
+    
+      
+        .b17{
+            background-color: rgb(13, 94, 13);
+            border-radius: 65px;
+            position: relative;
+            height: 100px;
+            width: 10px;
+            left: 200px;
+            bottom: 250px;
+            animation-name: rightleg;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+        @keyframes rightleg {
+        50%{
+            rotate: 20deg;
+            background-color: #469115;
+            /* position: relative;
+        left:10px; */
+        }
+       
+        
+       }
+        .b18{
+            background-color: rgb(13, 94, 13);
+            border-radius: 65px;
+            position: relative;
+            height: 100px;
+            width: 10px;
+            left: 380px;
+            bottom: 350px;
+           animation-name: leftleg;
+           animation-duration: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+       
+       @keyframes leftleg {
+        10%{
+            rotate: 20deg;
+            background-color: #469115;
+            /* position: relative;
+        left:10px; */
+        }
+       
+        
+       }
+    
+       @keyframes eye{
+        50%{
+            background: linear-gradient(rgb(163, 31, 31),rgb(22, 22, 24));
+            
+            /* position: relative;
+        left:10px; */
+        }}
+        @keyframes reye{
+        50%{
+            background: linear-gradient(black,blue);
+            
+            /* position: relative;
+        left:10px; */
+        }}
+       .b19{
+        background-color: rgb(3, 3, 3);
+            border-radius: 100px;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            left: 80px;
+           bottom: 900px;
+           animation-name: c;
+           animation-duration: 5s;
+           animation-delay: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+       }
+       .b20{
+        background-color: rgb(12, 12, 12);
+            border-radius: 100px;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            left: 500px;
+           bottom: 950px;
+           animation-name: c;
+           animation-duration: 5s;
+           animation-delay: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+       }
+       .b21{
+        background-color: rgb(12, 12, 12);
+            border-radius: 100px;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            left: 700px;
+           bottom: 950px;
+           animation-name: c;
+           animation-duration: 5s;
+           animation-delay: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+       }
+       .b22{
+        background-color: rgb(13, 14, 13);
+            border-radius: 100px;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            left: 500px;
+           bottom: 750px;
+           animation-name: c;
+           animation-duration: 5s;
+           animation-delay: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+       }
+       @keyframes c{
+        50%{
+            background: linear-gradient(rgb(58, 56, 56),rgb(219, 27, 13),rgb(22, 21, 21));
+            
+            /* position: relative;
+        left:10px; */
+        }}
+        .name{
+            width: 100px;
+            height: 50px;
+            border: 2px solid wheat;
+            position: relative;
+            left: 270px;
+            top: 280px;
+            color: aqua;
+            display:flex ;
+            align-items: center;
+            justify-content: center;animation-name: name;
+           animation-duration: 5s;
+           animation-delay: 2s;
+           animation-fill-mode: forwards;
+           animation-iteration-count: infinite;
+        }
+        @keyframes name{
+        50%{
+            background: linear-gradient(rgb(32, 13, 68),rgb(180, 35, 161));
+            color: peru;
+            border-radius: 50px;
+            /* position: relative;
+        left:10px; */
+        }}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="name"><b>pig dance</b></div>
+        <div class="b b1"></div>
+        <div class="b b2"></div>
+        <div class="b b3"></div>
+        <div class="b b4"></div>
+        <div class="b b5"></div>
+        <div class="b b6"></div>
+        <div class="b b7"></div>
+        <div class="b b8"></div>
+        <div class="b b9"></div>
+        <div class="b b10"></div>
+        <div class="b b11"></div>
+        <div class="b b12"></div>
+        <div class="b b13"></div>
+        <div class="b b14"></div>
+        <div class="b b15"></div>
+        <div class="b b16"></div>
+        <div class="b b17"></div>
+        <div class="b b18"></div>
+        <div class="b b19"></div>
+        <div class="b b20"></div>
+        <div class="b b21"></div>
+        <div class="b b22"></div>
+        <div class="b b23"></div>
+        <div class="b b24"></div>
+        <div class="b b25"></div>
+    </div>
+</body>
+</html>
